@@ -1,0 +1,98 @@
+/* Global Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Reflecting the era's preference for clean, sans-serif fonts */
+    margin: 0;
+    padding: 0;
+    background-color: #eee; /* A neutral background */
+    color: #444; /* Dark gray for text for better readability */
+}
+
+/* Header */
+header {
+    background-color: #c44d58; /* A warm tone replacing the default blue */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #333333; /* A darker shade for contrast */
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: #c44d58; /* Matching the header color on hover */
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: #333; /* A return to simplicity */
+}
+
+section p {
+    line-height: 1.6;
+    font-size: 1em; /* Ensuring readability and simplicity */
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333333; /* Echoing the navigation color */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design for smaller devices */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+    }
+
+    nav ul li a {
+        display: block;
+        width: 100%;
+    }
+}
